@@ -1,0 +1,60 @@
+.heading {
+  height: 100vh;
+  background-color: darkolivegreen;
+  padding: 50px;
+}
+
+.heading .text h1 {
+  color: white;
+}
+.heading .text h1 span {
+  color: sandybrown;
+  font-size: 35px;
+}
+.heading .text h3 {
+  color: white;
+}
+.heading .text h3 span {
+  color: sandybrown;
+  font-size: 35px;
+}
+
+.inputs-p {
+  width: 400px;
+  padding: 20px;
+  background: cornsilk;
+  margin: 10px;
+}
+.inputs-p input {
+  outline: none;
+  width: 200px;
+  padding: 10px;
+  /* border: none; */
+  border-radius: 6px;
+}
+.inputs-p i {
+  margin-left: 10px;
+}
+.inputs-p input:focus::placeholder {
+  opacity: 0;
+  transition: 0.2s linear;
+}
+
+.heading .submit {
+  margin: 20px;
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s linear;
+  background-color: cornsilk;
+  color: black;
+}
+
+.heading .submit:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: cornsilk;
+}
